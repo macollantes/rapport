@@ -1,8 +1,8 @@
-# JPRAG Rapport V6.3
+# JPRAG Rapport V6.3.1
 
 Lokale Rapport-App für die tägliche Erfassung von Baustellen, Arbeiten, Stunden und Spesen.
 
-## V6.3
+## V6.3.1
 
 - Ruhigere Wochen-Navigation mit blauen JPRAG-Pfeilen.
 - Aktiver Tag mit dezentem gelbem Marken-Akzent statt starkem schwarzem Rahmen.
@@ -22,3 +22,8 @@ Lokale Rapport-App für die tägliche Erfassung von Baustellen, Arbeiten, Stunde
 - `README.md`
 
 Die App läuft ohne Server und speichert ihre Daten lokal im Browser.
+
+
+## V6.3.1
+- Korrektur für iPhone/Safari: Das Firmenlogo ist direkt im HTML eingebettet und wird vor dem Druck vollständig geladen.
+- Keine Layout- oder Funktionsänderungen gegenüber V6.3.
