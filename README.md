@@ -1,18 +1,18 @@
-# JPRAG Rapport V5
+# JPRAG Rapport V6
 
-Lokale Web-App zur täglichen Erfassung von Arbeitsstunden und ausgeführten Arbeiten.
+Lokale Web-App zur täglichen Erfassung von Arbeitszeit und ausgeführten Arbeiten.
 
-## Dateien
-- `index.html` – Anwendung
-- `logo-neu.png` – Firmenlogo für die PDF-Berichte
+## V6 – Schwerpunkt Bedienbarkeit
 
-## Nutzung
-Die Daten werden lokal im Browser gespeichert. Für GitHub Pages `index.html` und `logo-neu.png` im gleichen Verzeichnis veröffentlichen.
+- Klarer Einstieg pro Tag über **Arbeit erfassen**.
+- Baustellen-Einträge werden direkt durch Antippen bearbeitet.
+- Vereinfachte Vollbild-Erfassung mit ruhigerer visueller Hierarchie.
+- Arbeiten werden wie bei einer Flug-/Ortssuche direkt eingegeben: passende Vorschläge erscheinen automatisch; neue Texte werden als lokale Arbeiten gespeichert.
+- Favoriten bleiben verfügbar, ohne die Eingabe zu dominieren.
+- **Stundenübersicht** nach Abrechnungsmonat: jeweils vom 21. des Vormonats bis zum 20. des angezeigten Monats.
+- Spezialcodes erscheinen in der Stundenübersicht nur, wenn sie im Zeitraum tatsächlich verwendet wurden.
+- Baustellenberichte bleiben technisch vorhanden, sind aber vorerst von der Startseite ausgeblendet.
+- Wochenbericht und PDF-Ausgabe bleiben erhalten.
+- Spesen pro Tag können unter Einstellungen lokal angepasst werden.
 
-## V5
-- Klarere Tagesnavigation ohne doppelte Stundenanzeige
-- Harmonische Favoritenlisten für Baustellen und Arbeiten
-- Konfigurierbarer Tages-Spesenbetrag
-- Auto-km, Töff-km und diverse Spesen in den Einträgen
-- Mobile-first Wochenbericht mit vertikaler Darstellung
-- Erweiterter PDF-Wochenbericht mit separaten Spesen-/Kilometerspalten
+Alle Daten werden lokal im Browser des Geräts gespeichert.
