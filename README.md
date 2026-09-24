@@ -1,17 +1,24 @@
-# JPRAG Rapport V6.2
+# JPRAG Rapport V6.3
 
-Lokale Web-App zur täglichen Erfassung von Arbeitszeit und ausgeführten Arbeiten.
+Lokale Rapport-App für die tägliche Erfassung von Baustellen, Arbeiten, Stunden und Spesen.
 
-## V6.2 – Bericht nach Baustellen verfeinert
+## V6.3
 
-- **Wochenbericht nach Baustellen** kann jetzt direkt als PDF gedruckt bzw. geteilt werden.
-- Auftrag-Nr. ist im Baustellenbericht deutlicher lesbar.
-- Tag und Datum stehen im Baustellenbericht gemeinsam und gleichwertig in einer Zeile.
-- Automatisch zugeordnete **Spesen** werden im Baustellenbericht deutlich hervorgehoben.
-- Auf der Tagesansicht stehen Tag und Datum ebenfalls gemeinsam in einer Zeile.
-- Zwischen **Arbeit hinzufügen** und der Tages-Summe ist mehr Abstand; die Total-Leiste ist kompakter.
-- Lokal angelegte Arbeiten können direkt im Autocomplete über **×** aus der Auswahlliste entfernt werden.
-- Bereits gespeicherte historische Einträge bleiben beim Entfernen einer lokalen Arbeit erhalten.
-- Die Stundenübersicht 21.–20. und beide Wochenansichten bleiben erhalten.
+- Ruhigere Wochen-Navigation mit blauen JPRAG-Pfeilen.
+- Aktiver Tag mit dezentem gelbem Marken-Akzent statt starkem schwarzem Rahmen.
+- Datum im Tageskopf kleiner und ruhiger.
+- `Wochenbericht nach Tagen` visuell an `Wochenbericht nach Baustellen` angeglichen.
+- Beide Wochen-PDFs verwenden dieselbe eigenständige A4-Gestaltung.
+- Größeres Firmenlogo und zentrierter Berichtstitel im PDF.
+- Einheitliches Linienkonzept: stärkerer Außenrahmen je Block, feinere Innenlinien.
+- Im Baustellen-PDF stehen Wochentag und Datum untereinander für bessere Lesbarkeit.
+- Automatischer Dateiname nach Schema `PersNr_Name_KW_Jahr_Typ` (z. B. `836_MatiasAgustinCollantesAlegre_KW39_2026_Baustellen`).
+- Bestehende lokale Daten bleiben kompatibel.
 
-Alle Daten werden lokal im Browser des Geräts gespeichert.
+## Dateien
+
+- `index.html`
+- `logo-neu.png`
+- `README.md`
+
+Die App läuft ohne Server und speichert ihre Daten lokal im Browser.
